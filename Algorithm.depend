@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1735579191 source:c:\users\pc\documents\gcc\algorithm\main.c
+	<stdio.h>
+	<stdlib.h>
+	"inc/queue.h"
+	"inc/list.h"
+
+1735578512 source:c:\users\pc\documents\gcc\algorithm\src\queue.c
+	"../inc/queue.h"
+
+1735578371 c:\users\pc\documents\gcc\algorithm\inc\queue.h
+	"misc.h"
+
+1735578310 c:\users\pc\documents\gcc\algorithm\inc\misc.h
+	<stddef.h>
+	<stdlib.h>
+
+1735579229 source:c:\users\pc\documents\gcc\algorithm\src\list.c
+	"../inc/list.h"
+
+1735578303 source:c:\users\pc\documents\gcc\algorithm\src\misc.c
+	"../inc/misc.h"
+
+1735578411 c:\users\pc\documents\gcc\algorithm\inc\list.h
+	"misc.h"
+
