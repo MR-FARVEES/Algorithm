@@ -31,3 +31,12 @@ Node *nnode(Data *data, void *params, Type type) {
     qn->type = type;
     return qn;
 }
+
+Process *newTask(int id, Priority priority, ProcessState state, char *info) {
+    Process *p = (Process *)malloc(sizeof(Process));
+    p->id = id;
+    p->priority = priority;
+    p->state = state;
+    p->info = info;
+    return p;
+}

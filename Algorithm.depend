@@ -24,3 +24,29 @@
 1735578411 c:\users\pc\documents\gcc\algorithm\inc\list.h
 	"misc.h"
 
+1735653528 source:d:\gcc\algorithm\src\list.c
+	"../inc/list.h"
+
+1735653528 d:\gcc\algorithm\inc\list.h
+	"misc.h"
+
+1735656216 d:\gcc\algorithm\inc\misc.h
+	<stddef.h>
+	<stdlib.h>
+
+1735653528 source:d:\gcc\algorithm\src\queue.c
+	"../inc/queue.h"
+
+1735653528 d:\gcc\algorithm\inc\queue.h
+	"misc.h"
+
+1735656350 source:d:\gcc\algorithm\src\misc.c
+	"../inc/misc.h"
+
+1735656503 source:d:\gcc\algorithm\src\process.c
+	"../inc/process.h"
+
+1735656845 d:\gcc\algorithm\inc\process.h
+	"misc.h"
+	<pthread.h>
+
