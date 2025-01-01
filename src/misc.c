@@ -38,5 +38,6 @@ Process *newTask(int id, Priority priority, ProcessState state, char *info) {
     p->priority = priority;
     p->state = state;
     p->info = info;
+    p->tot_active = (TIME *)malloc(sizeof(TIME));
     return p;
 }

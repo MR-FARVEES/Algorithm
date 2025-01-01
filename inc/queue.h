@@ -9,7 +9,7 @@ typedef struct {
     int             count;
     int             max;
     Bool            isFull;
-} Queue;
+} Queue __attribute__((packed));
 
 Queue *initQueue(int    );
 Bool isFull     (Queue *);

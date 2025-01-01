@@ -6,7 +6,7 @@
 typedef struct {
     Node *node;
     int size;
-} List;
+} List __attribute__((packed));
 
 List *initList();
 void append   (List **, void *, void *, Type);
